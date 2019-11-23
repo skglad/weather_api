@@ -61,7 +61,7 @@
 						let temp_data = results.main
 						let weather_data = results.weather
 						let icon = (weather_data["0"].icon);
-						let iconurl = "http://openweathermap.org/img/w/" + icon + ".png"
+						let iconurl = "https://openweathermap.org/img/w/" + icon + ".png"
 						$("#forecast").css({"display" : "block", "text-align" : "center"});
 						$("#loc").html(city);
 						$("#temp").html(temp_data.temp);
